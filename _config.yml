@@ -63,3 +63,5 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
   - wai-website-plugin
+
+theme: jekyll-theme-midnight
