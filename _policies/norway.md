@@ -1,6 +1,6 @@
 ---
 lang: en
-order: 18
+order: 20
 title: Norway
 country:
   en: Norway

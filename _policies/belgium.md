@@ -1,6 +1,6 @@
 ---
 lang: en
-order: 15
+order: 3
 title: Belgium
 country:
   en: Belgium

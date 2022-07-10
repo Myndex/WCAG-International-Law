@@ -1,6 +1,6 @@
 ---
 lang: en
-order: 21
+order: 25
 title: Switzerland
 country:
   en: Switzerland

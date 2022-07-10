@@ -1,6 +1,6 @@
 ---
 lang: en
-order: 5
+order: 6
 title: Denmark
 country:
   en: Denmark

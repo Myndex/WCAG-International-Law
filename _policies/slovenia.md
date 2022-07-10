@@ -1,6 +1,6 @@
 ---
 lang: en
-order: 18
+order: 23
 title: Slovenia
 country:
   en: Slovenia

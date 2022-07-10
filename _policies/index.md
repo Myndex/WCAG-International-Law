@@ -51,6 +51,7 @@ This page lists governmental policies related to web accessibility, although it 
 
 
 <h2 id="xtable">Law and Policy Overview Table</h2>
+
 <div>
   <details open>
     <summary>

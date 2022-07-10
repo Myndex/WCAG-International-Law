@@ -18,9 +18,11 @@
       </ul>
     </li>
     <li>Type: {{p.type}}</li>
+    <li>Category: {{p.category}}</li>
     <li>Scope: {{p.scope}}</li>
     <li>Web only: {%if p.webonly == true %}yes{% else %}no{%endif%}</li>
     <li>WCAG Version Used: {{p.wcagver}}</li>
+    <li>WCAG Level: {{p.wcaglevel}}</li>
     {% if p.standard %}
     {% unless p.standard == "None" or p.standard == "none" or p.standard == false %}
       {% if p.standard %}

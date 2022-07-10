@@ -1,6 +1,6 @@
 ---
 lang: en
-order: 6
+order: 7
 title: European Union
 country:
   en: European Union

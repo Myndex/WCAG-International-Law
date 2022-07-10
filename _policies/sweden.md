@@ -1,6 +1,6 @@
 ---
 lang: en
-order: 20
+order: 24
 title: Sweden
 country:
   en: Sweden

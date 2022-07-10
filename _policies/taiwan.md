@@ -1,6 +1,6 @@
 ---
 lang: en
-order: 22
+order: 26
 title: Taiwan
 country:
   en: Taiwan
