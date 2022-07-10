@@ -20,7 +20,11 @@
   {%- assign timestamp = site.time | date: '%s%N' -%}
   {%- assign timestamp = '?' | append: timestamp -%}
   {%- include_cached head.html type="start" timestamp=timestamp -%}
-  <title>International Web Accessibility Laws</title>
+  {%- if site.data.lang[pagelang].rtl -%}
+  <title> W3C | {{ site.title | escape }} | {{ page.title | escape }} {%if page.doc-note-type == "archived" %}[{% include t.html t="Archived" %}]{% endif%}{%if page.doc-note-type == "draft" %}[{% include t.html t="Draft" %}]{% endif%}</title>
+  {%- else -%}
+  <title>{%if page.doc-note-type == "archived" %}[{% include t.html t="Archived" %}]{% endif%}{%if page.doc-note-type == "draft" %}[{% include t.html t="Draft" %}]{% endif%} {{ page.title | escape }} | {{ site.title | escape }} | W3C</title>
+  {%- endif -%}
   {% if page.ext_css %}<link rel="stylesheet" href="{{ page.ext_css | prepend: '/css/' | prepend: page.collection | prepend: '/' | relative_url | append: timestamp }}">{% endif %}
   {%- if page.inline_css %}<style>{{ page.inline_css }}</style>{% endif -%}
   {%- capture seo -%}
@@ -31,9 +35,6 @@
   <meta name="twitter:image" property="og:image" content="{{ twimage | relative_url | prepend: site.url }}">
   {%- endunless -%}
   {% include_cached head.html type="end" %}
-
-
-
   <body id="top" class="page-{{page.title | slugify}} {% include_cached body-class.html collection=page.collection doc-note-type=page.doc-note-type %}"{%if page.footnotestitle %} data-footnotestitle="{{page.footnotestitle}}"{% endif %}>
     {% include header.html translations=translations %}
 
@@ -46,7 +47,7 @@
     <h1 class="post-title">{% include multilang-title.html title=page.country %}</h1>
 
     <div class="post-content">
-      <p>The laws and/or policies linked below have been submitted by the community, and have not been reviewed for accessibility by an attorney. Please consult your legal counsel for related questions, and please consult the links to official version for the appropriate country.</p>
+      <p>The laws and/or policies linked below have been submitted by the community, and have not been reviewed for accessibility. In the event that a law or policy may have accessibility problems, W3C/WAI welcomes information on more accessible versions of the linked laws/policies listed via our <a href="https://www.w3.org/WAI/policies/submission/">submission form</a>. We will also retain a link to the official version for each country.</p>
       {% if page.states %}<p>See below for information about particular <a href="#states">{{page.statesdesc.en}}</a>.</p>{% endif %}
       <p>Last Updated: {{page.updated | date: "%-d %B %Y" }}{%if page.updatemsg%} – {{page.updatemsg}}{%endif%}</p>
       {% if page.relatedpages %}{% for r in page.relatedpages %}<p>Related page: <a href="{{r.url}}">{{r.title}}</a></p>{% endfor %}{% endif %}

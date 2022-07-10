@@ -56,6 +56,7 @@ var defaults = {
  * jQuery namespace. Pass in your own settings (see above) to initialize
  * the faceted search
  */
+ 
 var settings = {};
 jQuery.facetelize = function(usersettings) {
   $.extend(settings, defaults, usersettings);
@@ -76,6 +77,7 @@ jQuery.facetelize = function(usersettings) {
  * jQuery namespace. Use it to update everything if you messed with
  * the settings object
  */
+
 jQuery.facetUpdate = function() {
   filter();
   order();
@@ -90,6 +92,7 @@ jQuery.facetUpdate = function() {
 /**
  * initializes all facets and their individual filters
  */
+
 function initFacetCount() {
   _.each(settings.facets, function(facettitle, facet) {
     settings.facetStore[facet] = {};

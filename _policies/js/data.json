@@ -17,7 +17,8 @@ excerpt: none
     "scope": [
       {% assign scopes = p.scope | split: ", " %}{% for scope in scopes %}"{{scope | escape_once}}"{% unless forloop.last %},{% endunless %}{% endfor %}
     ],
+    "wcagver": "{{p.wcagver | escape_once}}",
+    "wcaglevel": "{{p.wcaglevel | escape_once}}",
     "webonly": "{%if p.webonly == true %}yes{% else %}no{%endif%}",
-    "wcagver": "{{p.wcagver | escape_once}}"
   }{% unless outerlast == true and forloop.last == true %},{% endunless %}{% endfor %}{% endfor %}
 ]

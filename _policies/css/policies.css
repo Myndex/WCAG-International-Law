@@ -8,11 +8,12 @@
   clear: both;
 }
 .overviewtable caption {
-  text-align: left;
+  text-align: center;
 }
 
-#infos {text-align: left;}
+#infos {text-align: center;}
 .facettotalcount {display:inline;}
+
 #deselect {line-height: normal; margin: .4em;}
 ul.facetlist { list-style-type: none; padding-left: 0; margin-bottom: 0; margin-top: 0;}
 ul.facetlist li {
