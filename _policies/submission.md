@@ -2,9 +2,12 @@
 layout: sidenav
 title: Add or Update a Web Accessibility Law or Policy
 nosidenav: true
+style: |
+  fieldset {margin-bottom: 1.5em}
+  .form-row div {
+    display: inline-block;
+  }
 ---
-
-<style>fieldset {margin-bottom: 1.5em}</style>
 
 
 This form allows you to provide information about new or updated web accessibility policies enacted by governments worldwide. We welcome any additions or corrections to the policies list and detail pages.
