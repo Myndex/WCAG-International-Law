@@ -28,7 +28,7 @@ For guidance on developing an accessibility policy for an organization, see [Dev
 
 {% include excol.html type="middle" %}
 
--   **Law** – A law has completed the legislation process, and is put
+-   **Law** – XA law has completed the legislation process, and is put
     into effect as the law of the land.
 -   **Policy** – Outlines the goals of a government ministry or agency
     as well as the methods and principles to achieve those goals.
