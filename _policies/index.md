@@ -6,7 +6,6 @@ nav_title: "Countries / Regions"
 layout: sidenav
 ---
 
-
 This page lists governmental policies related to web accessibility, although it is not a comprehensive or definitive listing. The information on this page is _not_ legal advice. If you have questions about the applicability of the policies to specific situations, please consult your legal council for the appropriate jurisdiction.
 
 
@@ -80,22 +79,17 @@ This page lists governmental policies related to web accessibility, although it 
     <tbody id="results">
       {% for policy in site.policies %}
       {% for p in policy.policies %}
-
       <tr data-updated="{{policy.updated}}">
-        <td>{% assign curl = policy.country.en | slugify | prepend: '#x' %}
-          {% include multilang-title.html title=policy.country url=curl %}</td>
+        <td>{% assign curl = policy.country.en | slugify | prepend: '#x' %}</td>
         <td>{{p.wcagver}}</td>
         <td>{{p.wcaglevel}}</td>
         <td>{%if p.webonly == true %}yes{% else %}no{%endif%}</td>
-
-        <td class="hyphenated">{{p.type}}</td>
-        <td class="hyphenated">{{p.category}}</td>
+        <td class="">{{p.type}}</td>
+        <td class="">{{p.category}}</td>
         <td class="hyphenated">{{p.scope}}</td>
-
         <td><a href="{{ policy.url | prepend: site.baseurl }}#{{ p.title.en | slugify }}">{{p.title.en}}</a></td>
         <td>{{p.enactdate}}</td>
       </tr>
-
       {% endfor %}
       {% endfor %}
     </tbody>
@@ -110,8 +104,8 @@ This page lists governmental policies related to web accessibility, although it 
     <td><%= obj.wcaglevel %></td>
     <td><%= obj.webonly %></td>
     
-    <td class="hyphenated"><%= obj.type %></td>
-    <td class="hyphenated"><%= obj.category %></td>
+    <td class=""><%= obj.type %></td>
+    <td class=""><%= obj.category %></td>
     <td class="hyphenated"><% if (obj.scope instanceof Array && obj.scope.length > 1) { %>
       <%= obj.scope.join(', ') %>
     <% } else { %>
