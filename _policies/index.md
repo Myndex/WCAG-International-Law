@@ -83,7 +83,7 @@ This page lists governmental policies related to web accessibility, although it 
 
       <tr data-updated="{{policy.updated}}">
         <td>{% assign curl = policy.country.en | slugify | prepend: '#x' %}
-          {% title=policy.country url=curl %}</td>
+          {% include multilang-title.html title=policy.country url=curl %}</td>
         <td>{{p.wcagver}}</td>
         <td>{{p.wcaglevel}}</td>
         <td>{%if p.webonly == true %}yes{% else %}no{%endif%}</td>

@@ -2,13 +2,13 @@
 {% assign theslug = p.title.en | slugify %}
 {% capture boxtitle %}
 <h{{include.headinglevel}} class="policy-heading">
-  {% title=p.title %}
+  {% include multilang-policy-title.html title=p.title %}
 </h{{include.headinglevel}}>
 {% endcapture %}
-{%  type="start" title=boxtitle class="large" id=theslug %}
+{% include box.html type="start" title=boxtitle class="large" id=theslug %}
 <div>{% assign urlsize = p.url | size %}
   <h{{include.headinglevel | plus: 1}} style="margin-top:10px;">Official law/policy page{% if urlsize > 1 %}s{% endif %}</h{{include.headinglevel | plus: 1}}>
-  {% title=p.title url=p.url external="true" wrap="h2" id=theslug class="policy-heading" %}
+  {% include multilang-list-policy-links.html title=p.title url=p.url external="true" wrap="h2" id=theslug class="policy-heading" %}
   <h{{include.headinglevel | plus: 2}}>Details</h{{include.headinglevel | plus: 2}}>
   <ul>
     <li>Date enacted: {{p.enactdate}}</li>
@@ -28,7 +28,7 @@
       {% if p.standard %}
         <li>Relevant Standard{%if p.standard.size > 1 %}s{%endif%}:
           <ul>
-            {% for d in p.standard %}<li>{% title=d.title url=d.url external="true" %}{%if d.desc %}<br>{{d.desc}}{%endif%}</li>{%endfor%}
+            {% for d in p.standard %}<li>{% include multilang-list.html title=d.title url=d.url external="true" %}{%if d.desc %}<br>{{d.desc}}{%endif%}</li>{%endfor%}
           </ul>
         </li>
       {% endif %}
@@ -37,10 +37,10 @@
     {% if p.documents %}
       <li>Relevant Documents:
         <ul>
-          {% for d in p.documents %}<li>{%  title=d.title url=d.url external="true" %}{%if d.desc %}<br>{{d.desc}}{%endif%}</li>{%endfor%}
+          {% for d in p.documents %}<li>{% include multilang-list.html title=d.title url=d.url external="true" %}{%if d.desc %}<br>{{d.desc}}{%endif%}</li>{%endfor%}
         </ul>
       </li>
     {% endif %}
   </ul>
 </div>
-{%  type="end" %}
+{% include box.html type="end" %}
