@@ -1,20 +1,6 @@
 {%- assign pagelang = 'en' -%}
-{%- if page.lang -%}
-  {%- assign pagelang = page.lang -%}
-{%- endif -%}
-{%- if pagelang == 'en' -%}
-  {%- assign enpage = page -%}
-{%- else -%}
-  {%- assign enpage=site.documents | where:"ref", page.ref | where: "lang", "en" | first -%}
-  {%- unless enpage.ref -%}
-    {%- assign enpage=site.pages | where:"ref", page.ref | where: "lang", "en" | first -%}
-  {%- endunless -%}
-{%- endif -%}
 {%- assign englishpageurl = enpage.url %}
-{% assign translations=site.documents | where:"ref", page.ref | where_exp:"item", "item.lang != 'en'" | sort: 'lang' %}
-{%- unless translations[0].ref -%}
-  {% assign translations=site.pages | where:"ref", page.ref | where_exp:"item", "item.lang != 'en'" | sort: 'lang' %}
-{%- endunless -%}
+
 <!DOCTYPE html>
 <html class="no-js" lang="{% if page.lang %}{{page.lang}}{% else %}en{% endif %}" dir="{% if site.lang[page.lang].rtl == true %}rtl{% else %}ltr{% endif %}" prefix="og: http://ogp.me/ns#">
   {%- assign timestamp = site.time | date: '%s%N' -%}
@@ -37,7 +23,7 @@
 
 <div class="default-grid contentarea">
   <main id="main"{% if page.lang %} lang="{{page.lang}}"{% endif %}>
-    <h1 class="post-title">{% include multilang-title.html title=page.country %}</h1>
+    <h1 class="post-title">{% title=page.country %}</h1>
     <div class="post-content">
       <p>The laws and/or policies linked below have been submitted by the community, and have not been reviewed for accessibility by an attorney. Please consult your legal counsel for related questions, and please consult the links to official version for the appropriate country.</p>
 
@@ -92,7 +78,6 @@
     {%- include prevnext-order.html -%}
   {%- endif -%}
 {%- endif -%}
-    {% include_cached backtotop.html lang=page.lang %}
   </main>
 </div>
 
