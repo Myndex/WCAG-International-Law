@@ -19,7 +19,7 @@ policies:
     wcaglevel:
     enactdate: 1985
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
+    category: Equal-Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of the Attorney General

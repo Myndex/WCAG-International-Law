@@ -22,7 +22,7 @@ policies:
     wcaglevel:
     enactdate: 2013
     type: Law  # Voluntary|Policy|Mandate|Regulation|Law
-    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
+    category: Equal-Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: "Norwegian Authority for Universal Design of ICT, a part of the Agency for Public Management and eGovermnent (Difi)"
