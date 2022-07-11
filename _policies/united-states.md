@@ -13,8 +13,10 @@ policies:
       en: https://www.section508.gov/section-508-of-the-rehabilitation-act
     updated: 2018-03-20
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 1998
-    type: Procurement law, Accessibility law # other values: recommendation/law/policy
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Procurement, Accessibility  # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: General Services Administration (GSA)
@@ -68,8 +70,10 @@ policies:
       en: https://www.ada.gov/pubs/adastatute08.htm
     updated: 2017-02-16
     wcagver: None
+    wcaglevel:
     enactdate: 2009
-    type: Non-discrimination law # other values: law/policy/procurement/recommendation
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Department of Labor (DOL)
@@ -110,8 +114,10 @@ policies:
       en: https://www.access-board.gov/the-board/laws/telecommunications-act
     updated: 2017-02-16
     wcagver: None
+    wcaglevel:
     enactdate: 1996
-    type: Accessibility law # other values: law/policy/procurement/recommendation
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Federal Communications Commission (FCC)
@@ -149,8 +155,10 @@ policies:
       en: http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title14/14cfr382_main_02.tpl
     updated: 2017-02-16
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2013
-    type: Non-discrimination law # other values: law/policy/procurement/recommendation
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Department of Transportation (DoT)
@@ -180,8 +188,10 @@ policies:
       en: http://hraunfoss.fcc.gov/edocs_public/attachmatch/DOC-303939A1.doc
     updated: 2017-03-20
     wcagver: None
+    wcaglevel:
     enactdate: 2010
-    type: Accessibility law # other values: law/policy/procurement/recommendation
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Federal Communications Commission (FCC)
@@ -312,8 +322,10 @@ states:
       en: http://txrules.elaws.us/rule/title1_chapter206_sec.206.50
     updated: 2005
     wcagver: WCAG 2.0 derivate
+    wcaglevel:
     enactdate: 2005
-    type: law, Recommended policy
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category:    # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: "Texas Department of Information Resources oversees for all state agencies"
@@ -350,8 +362,10 @@ states:
       en: https://ocio.wa.gov/policy/accessibility
     updated: 2016
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2016
-    type: Mandatory policy
+    type:  Mandate  # Voluntary|Policy|Mandate|Regulation|Law
+    category:  # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: "Washington State Office of the Chief Information Officer"

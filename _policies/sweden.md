@@ -17,8 +17,10 @@ policies:
       en: http://www.government.se/information-material/2015/09/discrimination-act-2008567/
     updated: 2008
     wcagver: None
+    wcaglevel:
     enactdate: 2008
-    type: Non-discrimination law
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries: false
     webonly: false
     scope: Public sector, Private sector

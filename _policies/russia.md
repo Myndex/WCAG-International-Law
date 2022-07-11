@@ -16,8 +16,10 @@ policies:
       ru: http://protect.gost.ru/v.aspx?control=8&id=176157
     updated: 2014
     wcagver: WCAG 2.0 derivate
+    wcaglevel:
     enactdate: 2014
-    type: Voluntary standard
+    type: Voluntary   # Voluntary|Policy|Mandate|Regulation|Law
+    category:   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           ru: "Federal Agency for Technical Regulation and Metrology"

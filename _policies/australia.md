@@ -16,8 +16,10 @@ policies:
       en: http://www.legislation.gov.au/Details/C2016C00763
     updated: 2016-08-30
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 1992
-    type: Non-discrimination law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Attorney General’s Department
@@ -52,8 +54,10 @@ policies:
       en: http://www.legislation.gov.au/Details/C2016C00763
     updated: 2016-10-01
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2016
-    type: Procurement recommendation
+    type: Voluntary   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Procurement   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
          en: Minister of Finance

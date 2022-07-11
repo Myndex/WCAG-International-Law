@@ -15,8 +15,10 @@ policies:
       en: http://www.legislation.gov.uk/ukpga/2010/15/contents
     updated: 2017-05-04
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2010
-    type: Non-discrimination law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Equality and Human Rights Commission

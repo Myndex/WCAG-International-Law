@@ -17,8 +17,10 @@ policies:
       fr: http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo
     updated: 2019-05-28
     wcagver: 
+    wcaglevel:
     enactdate: 2019
-    type: Accessibility law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Information and Press Service

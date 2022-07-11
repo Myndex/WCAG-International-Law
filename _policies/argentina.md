@@ -16,8 +16,10 @@ policies:
       es: http://servicios.infoleg.gob.ar/infolegInternet/anexos/175000-179999/175694/norma.htm
     updated: 2010
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2010
-    type: law, Procurement law,
+    type: law  # Voluntary|Policy|Mandate|Regulation|Law
+    category:  law  # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           es: "Oficina Nacional de Tecnologías de Información"

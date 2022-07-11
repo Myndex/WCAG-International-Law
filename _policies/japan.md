@@ -18,8 +18,10 @@ policies:
       ja: http://www.soumu.go.jp/main_sosiki/joho_tsusin/b_free/guideline.html
     updated: 2016-04-20
     wcagver: WCAG 2.0 derivative
+    wcaglevel:
     enactdate: 2016-04-20
-    type: Procurement recommendation # other values: law/policy/procurement
+    type: Voluntary   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Procurement   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Internal Affairs and Communications

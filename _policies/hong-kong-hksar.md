@@ -18,8 +18,10 @@ policies:
     desc: Guidelines last updated in 2012, requires WCAG 2.0 Level AA.
     updated: 2017-05-04
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 1999
-    type: Mandatory policy
+    type: Mandate    # Voluntary|Policy|Mandate|Regulation|Law
+    category:   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Office of the Government Chief Information Officer

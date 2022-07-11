@@ -15,8 +15,10 @@ policies:
       en: http://www.oireachtas.ie/documents/bills28/acts/2005/a1405.pdf
     updated: 2017-04-01
     wcagver: None
+    wcaglevel:
     enactdate: 2005
-    type: Accessibility law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Department of the Taioseach and Government Information Services
@@ -36,8 +38,10 @@ policies:
       en: http://www.irishstatutebook.ie/eli/2000/act/8/enacted/en/html
     updated: 2017-04-01
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2004
-    type: Non-discrimination law
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Irish Human Rights and Equality Commission
@@ -58,8 +62,10 @@ policies:
       en: http://www.irishstatutebook.ie/eli/1998/act/21/enacted/en/html
     updated: 2017-04-01
     wcagver: None
+    wcaglevel:
     enactdate: 2004
-    type: Non-discrimination law
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Irish Human Rights and Equality Commission

@@ -17,8 +17,10 @@ policies:
     urllang: de
     updated: 2017-03-17
     wcagver: None
+    wcaglevel:
     enactdate: 2002
-    type: Non-discrimination law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Justice and Consumer Protection
@@ -35,8 +37,10 @@ policies:
       de: https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html
     updated: 2017-03-17
     wcagver: WCAG 2.0 derivative
+    wcaglevel:
     enactdate: 2011
-    type: Accessibility policy #Procurement policy, Non-discrimination law, Accessibility law, Proposed Law, Recommendation, Accessibility policy
+    type: policy   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Federal Ministry of the Interior

@@ -23,8 +23,10 @@ policies:
       it: https://www.admin.ch/opc/it/classified-compilation/20002658/index.html
     updated: 2016-08-30
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2002
-    type: Non-discrimination law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Federal Office of Justice (FOJ)

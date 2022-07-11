@@ -14,8 +14,10 @@ policies:
       en: http://www.disabilityaffairs.gov.in/upload/uploadfiles/files/RPWD%20ACT%202016.pdf
     updated: 2017-03-24
     wcagver: None
+    wcaglevel:
     enactdate: 2016
-    type: Non-discrimination law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Social Justice and Empowerment
@@ -31,8 +33,10 @@ policies:
       en: http://web.guidelines.gov.in
     updated: 2017-03-25
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2009
-    type: Mandatory policy # other values: law/policy/procurement
+    type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
+    category:    # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Department of Administrative Reforms and Public Grievances

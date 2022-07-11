@@ -17,8 +17,10 @@ policies:
       it: http://www.agid.gov.it/legge-9-gennaio-2004-n-4
     updated: 2017-05-30
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2004
-    type: Accessibility law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Digital Agency Italy (AGID)

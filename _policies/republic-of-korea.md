@@ -18,8 +18,10 @@ policies:
       ko: http://www.law.go.kr/법령/장애인차별금지및권리구제등에관한법률
     updated: 2008
     wcagver: WCAG 2.0 derivative
+    wcaglevel:
     enactdate: 2008
-    type: Non-discrimination law
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: "Ministry of Health and Welfare"

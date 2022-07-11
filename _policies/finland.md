@@ -18,8 +18,10 @@ policies:
       fi: http://www.finlex.fi/fi/laki/ajantasa/2003/20030013
     updated: 2017-05-08
     wcagver: None
+    wcaglevel:
     enactdate: 2003
-    type: Accessibility law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of the Interior
@@ -57,8 +59,10 @@ policies:
     url: https://www.finlex.fi/fi/laki/alkup/2019/20190306
     updated: 2019
     wcagver: WCAG 2.1, 
+    wcaglevel:
     enactdate: 2019
-    type: law, 
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category:    # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: "Parliament of Finland"

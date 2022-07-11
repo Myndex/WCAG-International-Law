@@ -16,8 +16,10 @@ policies:
       en: http://www.cdpf.org.cn/english/Resources/lawsregulations/201603/t20160303_542879.shtml
     updated: 2017-05-24
     wcagver: None
+    wcaglevel:
     enactdate: 2008
-    type: Accessibility law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: State Council of the People's Republic of China
@@ -38,8 +40,10 @@ policies:
       en: http://www.chinesestandard.net/default.aspx?PDF-English-ID=YD/T%201761-2008
     updated: 2017-05-24
     wcagver: WCAG 2.0 derivative
+    wcaglevel:
     enactdate: 2008
-    type: Recommendation # other values: law/policy/procurement
+    type: Voluntary   # Voluntary|Policy|Mandate|Regulation|Law
+    category:    # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Industry and Information Technology (MIIT)

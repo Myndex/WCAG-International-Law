@@ -18,8 +18,10 @@ policies:
       sl: http://www.pisrs.si/Pis.web/pregledPredpisa?sop=2018-01-1351
     updated: 2018-05-11
     wcagver: WCAG 2.1
+    wcaglevel:
     enactdate: 2018
-    type: Accessibility law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Information Security Administration

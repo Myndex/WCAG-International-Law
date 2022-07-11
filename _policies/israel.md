@@ -16,8 +16,10 @@ policies:
       en: http://www.justice.gov.il/En/Units/CommissionEqualRightsPersonsDisabilities/Equal-Rights-For-Persons-With-Disabilities-Law/Pages/Equal-Rights-For-Persons-With-Disabilities-Law.aspx
     updated: 2017-05-04
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 1998
-    type: Non-discrimination law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Justice

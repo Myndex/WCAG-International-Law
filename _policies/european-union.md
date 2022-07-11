@@ -14,8 +14,10 @@ policies:
       en: http://eur-lex.europa.eu/eli/dir/2016/2102/oj
     updated: 2016-10-26
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2016
-    type: Accessibility law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: European Commission
@@ -40,8 +42,10 @@ policies:
       en: http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2015:0615:FIN
     updated: 2015-12-02
     wcagver: WCAG 2.0 derivative
+    wcaglevel:
     enactdate: draft
-    type: Proposed law
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Proposed   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: European Commission

@@ -16,8 +16,10 @@ policies:
       en: http://laws-lois.justice.gc.ca/eng/acts/h-6/FullText.html
     updated: 2014-11-01
     wcagver: None
+    wcaglevel:
     enactdate: 1985
-    type: Non-discrimination law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of the Attorney General
@@ -37,8 +39,10 @@ policies:
       en: http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30683
     updated: 2016-10-01
     wcagver: WCAG 2.0
+    wcaglevel:
     enactdate: 2016
-    type: Mandatory policy
+    type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
+    category:   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Treasury Board
@@ -70,7 +74,8 @@ states:
       updated: 2018
       wcagver: none
       enactdate: 2017
-      type: law, Recommended policy
+      type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category:    # Equal Access|Accommodation|Procurement|Proposed
       ministries:
         - title:
             en: "Accessibility Directorate"
@@ -95,7 +100,8 @@ states:
       updated: 2014
       wcagver: none
       enactdate: 2003
-      type: law, Recommended policy
+      type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category:    # Equal Access|Accommodation|Procurement|Proposed
       ministries:
         - title:
             en: "Accessibility Directorate"
@@ -112,7 +118,8 @@ states:
       updated: 2005
       wcagver: WCAG 2.0,
       enactdate: 2005
-      type: law,
+      type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category:    # Equal Access|Accommodation|Procurement|Proposed
       ministries:
         - title:
             en: "Accessibility Directorate of Ontario"

@@ -16,8 +16,10 @@ policies:
       fr: http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000809647&dateTexte=
     updated: 2016-02-17
     wcagver: None
+    wcaglevel:
     enactdate: 2005
-    type: Accessibility law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Social Affairs
@@ -35,8 +37,10 @@ policies:
       fr: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030540064&dateTexte=&categorieLien=id
     updated: 2017-02-16
     wcagver: WCAG 2.0 derivative
+    wcaglevel:
     enactdate: 2015
-    type: Accessibility law
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Social Affairs
@@ -59,8 +63,10 @@ policies:
       fr: https://www.legifrance.gouv.fr/eli/loi/2016/10/7/ECFI1524250L/jo/article_106
     updated: 2017-06-20
     wcagver: None
+    wcaglevel:
     enactdate: 2016
-    type: Digital Governance law # other values: law/policy/procurement
+    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Digital Governance   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Secretary of State for Digital and Innovation (lead), Ministries of Education, of Economy, of Social affairs, of Justice, of Work, of the Interior, of Housing, of Culture
