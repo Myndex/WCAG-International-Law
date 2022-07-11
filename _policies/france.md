@@ -66,7 +66,7 @@ policies:
     wcaglevel:
     enactdate: 2016
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Digital Governance   # Equal Access|Accommodation|Procurement|Proposed
+    category: Digital<br>Governance   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Secretary of State for Digital and Innovation (lead), Ministries of Education, of Economy, of Social affairs, of Justice, of Work, of the Interior, of Housing, of Culture
