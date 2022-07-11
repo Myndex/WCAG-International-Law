@@ -36,7 +36,7 @@ policies:
     wcaglevel: A
     enactdate: 2009
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
-    category:    # Equal Access|Accommodation|Procurement|Proposed
+    category:# Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Department of Administrative Reforms and Public Grievances

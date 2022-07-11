@@ -62,7 +62,7 @@ policies:
     wcaglevel: AA
     enactdate: 2019
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
-    category:    # Equal Access|Accommodation|Procurement|Proposed
+    category:# Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: "Parliament of Finland"

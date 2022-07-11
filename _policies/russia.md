@@ -19,7 +19,7 @@ policies:
     wcaglevel:
     enactdate: 2014
     type: Voluntary  # Voluntary|Policy|Mandate|Regulation|Law
-    category:   # Equal Access|Accommodation|Procurement|Proposed
+    category:# Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           ru: "Federal Agency for Technical Regulation and Metrology"

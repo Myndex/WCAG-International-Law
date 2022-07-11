@@ -20,7 +20,7 @@ policies:
     wcaglevel: AA
     enactdate: 2007
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
-    category:    # Equal Access|Accommodation|Procurement|Proposed
+    category:# Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Finance - Digitalization Agency

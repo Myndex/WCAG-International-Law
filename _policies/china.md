@@ -43,7 +43,7 @@ policies:
     wcaglevel:
     enactdate: 2008
     type: Voluntary   # Voluntary|Policy|Mandate|Regulation|Law
-    category:    # Equal Access|Accommodation|Procurement|Proposed
+    category:# Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Industry and Information Technology (MIIT)

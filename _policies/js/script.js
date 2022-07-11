@@ -252,7 +252,7 @@ $(function(){
 		var settings = {
 			items            : jsn,
 			facets           : {
-				'wcagver' : {'title': 'WCAG Version', 'collapsed': true},
+				'wcagver' : {'title': 'WCAG<br>Version', 'collapsed': true},
 				'wcaglevel' : {'title': 'Lvl', 'collapsed': true},
         'type'  : {'title': 'Force', 'collapsed': true}
         'category'  : {'title': 'Category', 'collapsed': true}
@@ -264,7 +264,7 @@ $(function(){
 			enablePagination : false,
 			paginationCount  : 10,
 			orderByOptions   : {'title': 'Title'},
-			facetSortOption  : {'wcagver': ["WCAG 2.1","WCAG 2.0", "Modified<br>WCAG 2.0", "None"]},
+			facetSortOption  : {'wcagver': ["WCAG&nbsp;2.1","WCAG&nbsp;2.0", "Modified<br>WCAG&nbsp;2.0", "None"]},
 			facetListContainer : '<ul class=facetlist></ul>',
 			listItemTemplate   : '<li><span><input type="checkbox" class="facetitem" aria-pressed="false" id="<%= id %>" data-name="<%= _(_(name).strip_html()).to_slug() %>"></span> <span><label for="<%= id %>"><%= name %> <span class="facetitemcount">(<%= count %>&nbsp;<% if (count==1) { %>policy<% } else {%>policies<% } %>)</span></label></span></li>',
 			listItemInnerTemplate   : '<span><%= name %> <span class=facetitemcount>(<% if (count=="+") { %>0&nbsp;items<% } else { if (count==1) { %><%= count %>&nbsp;item<% } else {%><%= count %>&nbsp;items<% }} %>)</span></span>',

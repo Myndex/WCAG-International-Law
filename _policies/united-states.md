@@ -325,7 +325,7 @@ states:
     wcaglevel:
     enactdate: 2005
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
-    category:    # Equal Access|Accommodation|Procurement|Proposed
+    category:# Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: "Texas Department of Information Resources oversees for all state agencies"
@@ -365,7 +365,7 @@ states:
     wcaglevel:
     enactdate: 2016
     type:  Mandate  # Voluntary|Policy|Mandate|Regulation|Law
-    category:  # Equal Access|Accommodation|Procurement|Proposed
+    category:# Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: "Washington State Office of the Chief Information Officer"

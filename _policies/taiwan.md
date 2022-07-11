@@ -19,7 +19,7 @@ policies:
     wcaglevel:
     enactdate: 2017
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
-    category:   # Equal Access|Accommodation|Procurement|Proposed
+    category:# Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: "National Communications Commission"
