@@ -19,7 +19,7 @@ policies:
     wcaglevel:
     enactdate: 2010
     type: Law  # Voluntary|Policy|Mandate|Regulation|Law
-    category:  law  # Equal Access|Accommodation|Procurement|Proposed
+    category: # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           es: "Oficina Nacional de Tecnologías de Información"

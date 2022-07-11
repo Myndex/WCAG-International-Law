@@ -75,7 +75,7 @@ states:
       wcagver: none
       enactdate: 2017
       type: Law   # Voluntary|Policy|Mandate|Regulation|Law
-    category:    # Equal Access|Accommodation|Procurement|Proposed
+      category:    # Equal Access|Accommodation|Procurement|Proposed
       ministries:
         - title:
             en: "Accessibility Directorate"
@@ -101,7 +101,7 @@ states:
       wcagver: none
       enactdate: 2003
       type: Law   # Voluntary|Policy|Mandate|Regulation|Law
-    category:    # Equal Access|Accommodation|Procurement|Proposed
+      category:    # Equal Access|Accommodation|Procurement|Proposed
       ministries:
         - title:
             en: "Accessibility Directorate"
@@ -120,7 +120,7 @@ states:
       wcaglevel: AA
       enactdate: 2005
       type: Law   # Voluntary|Policy|Mandate|Regulation|Law
-    category:    # Equal Access|Accommodation|Procurement|Proposed
+      category:    # Equal Access|Accommodation|Procurement|Proposed
       ministries:
         - title:
             en: "Accessibility Directorate of Ontario"
