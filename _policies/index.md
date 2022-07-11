@@ -68,7 +68,7 @@ This page lists governmental policies related to web accessibility, although it 
     <tr>
       <th>Country or<br>Region</th>
       <th>WCAG<br>Version</th>
-      <th>Level</th>
+      <th>Lvl</th>
       <th>Web<br>Only</th>
       <th>Force</th>
       <th>Category</th>
