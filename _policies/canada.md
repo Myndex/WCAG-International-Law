@@ -38,7 +38,7 @@ policies:
     url:
       en: http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30683
     updated: 2016-10-01
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 2016
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
@@ -53,7 +53,7 @@ policies:
     standard:
       - title:
           en: "Standard on Web Accessibility"
-        desc: "Requires WCAG 2.0 Level AA and all conformance criteria. Exceptions: Text alternatives for complex maps under 1.1.1 Non-text content, 1.2.4 Captions (Live), and 1.2.5 Audio Description for pre-recorded video unrelated to health and safety."
+        desc: "Requires WCAG&nbsp;2.0 Level AA and all conformance criteria. Exceptions: Text alternatives for complex maps under 1.1.1 Non-text content, 1.2.4 Captions (Live), and 1.2.5 Audio Description for pre-recorded video unrelated to health and safety."
         url:
           en: http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=23601
     documents:
@@ -116,7 +116,7 @@ states:
       url:
         en: https://www.ontario.ca/laws/statute/05a11
       updated: 2005
-      wcagver: WCAG 2.0,
+      wcagver: WCAG&nbsp;2.0,
       wcaglevel: AA
       enactdate: 2005
       type: Law   # Voluntary|Policy|Mandate|Regulation|Law

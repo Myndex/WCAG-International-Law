@@ -36,7 +36,7 @@ policies:
     url:
       fr: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030540064&dateTexte=&categorieLien=id
     updated: 2017-02-16
-    wcagver: Modified<br>WCAG 2.0
+    wcagver: Modified<br>WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2015
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law

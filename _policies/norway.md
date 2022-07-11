@@ -17,8 +17,8 @@ policies:
     url:
       "no": https://lovdata.no/dokument/SF/forskrift/2013-06-21-732
     updated: 2013
-    wcagver: Modified<br>WCAG 2.0
-    wcagver_comment: "WCAG 2.0, WCAG 2.0 levels A and AA, with the exception of success criteria 1.2.3, 1.2.4 and 1.2.5."
+    wcagver: Modified<br>WCAG&nbsp;2.0
+    wcagver_comment: "WCAG&nbsp;2.0, WCAG&nbsp;2.0 levels A and AA, with the exception of success criteria 1.2.3, 1.2.4 and 1.2.5."
     wcaglevel:
     enactdate: 2013
     type: Law  # Voluntary|Policy|Mandate|Regulation|Law

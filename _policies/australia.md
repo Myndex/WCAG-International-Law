@@ -15,7 +15,7 @@ policies:
     url:
       en: http://www.legislation.gov.au/Details/C2016C00763
     updated: 2016-08-30
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: A
     enactdate: 1992
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
@@ -42,7 +42,7 @@ policies:
           en: Web Accessibility National Transition Strategy
         url:
           en: http://www.finance.gov.au/publications/wcag-2-implementation/
-        desc: The Australian Government’s adoption and implementation of Web content Accessibility Guidelines version 2.0 (WCAG 2.0) Level AA
+        desc: The Australian Government’s adoption and implementation of Web content Accessibility Guidelines version 2.0 (WCAG&nbsp;2.0) Level AA
       - title:
           en: Digital Service Standard accessibility requirement
         url:
@@ -53,7 +53,7 @@ policies:
     url:
       en: http://www.legislation.gov.au/Details/C2016C00763
     updated: 2016-10-01
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 2016
     type: Voluntary   # Voluntary|Policy|Mandate|Regulation|Law
@@ -66,7 +66,7 @@ policies:
     standard:
       - title:
           en: "EN 301 549"
-        desc: "Includes WCAG 2.0 Level AA verbatim without modifications for Web content, and WCAG 2.0 Level AA as interpreted by WCAG2ICT for non-Web documentation and software."
+        desc: "Includes WCAG&nbsp;2.0 Level AA verbatim without modifications for Web content, and WCAG&nbsp;2.0 Level AA as interpreted by WCAG2ICT for non-Web documentation and software."
         url:
           en: http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.01_60/en_301549v010101p.pdf
     documents:

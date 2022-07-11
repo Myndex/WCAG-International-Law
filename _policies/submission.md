@@ -107,9 +107,9 @@ Updates are delayed. We hope to have resources to make updates in early 2022. Co
   <fieldset id="fs-guideline">
     <legend>Select the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> version referenced or required by this policy</legend>
     <div class="form-block-mini radio">
-      <div class="form-row"><span><input data-id="guideline_wcag21" id="guideline_wcag21" name="guideline[]" value="WCAG 2.1" type="checkbox"> </span> <label for="guideline_wcag21">WCAG 2.1 — <abbr title="World Wide Web Consortium">W3C</abbr> Web Content Accessibility Guidelines 2.1</label></div>
-      <div class="form-row"><span><input data-id="guideline_wcag20" id="guideline_wcag20" name="guideline[]" value="WCAG 2.0" type="checkbox"> </span> <label for="guideline_wcag20">WCAG 2.0 — W3C Web Content Accessibility Guidelines 2.0</label></div>
-      <div class="form-row"><span><input data-id="guideline_wcag20derivative" id="guideline_wcag20derivative" name="guideline[]" value="WCAG 2.0 derivate" type="checkbox"> </span> <label for="guideline_wcag20derivative">WCAG 2 derivative — Based on W3C Web Content Accessibility Guidelines 2, with additional or modified requirements</label></div>
+      <div class="form-row"><span><input data-id="guideline_wcag21" id="guideline_wcag21" name="guideline[]" value="WCAG&nbsp;2.1" type="checkbox"> </span> <label for="guideline_wcag21">WCAG&nbsp;2.1 — <abbr title="World Wide Web Consortium">W3C</abbr> Web Content Accessibility Guidelines 2.1</label></div>
+      <div class="form-row"><span><input data-id="guideline_wcag20" id="guideline_wcag20" name="guideline[]" value="WCAG&nbsp;2.0" type="checkbox"> </span> <label for="guideline_wcag20">WCAG&nbsp;2.0 — W3C Web Content Accessibility Guidelines 2.0</label></div>
+      <div class="form-row"><span><input data-id="guideline_wcag20derivative" id="guideline_wcag20derivative" name="guideline[]" value="WCAG&nbsp;2.0 derivate" type="checkbox"> </span> <label for="guideline_wcag20derivative">WCAG&nbsp;2 derivative — Based on W3C Web Content Accessibility Guidelines 2, with additional or modified requirements</label></div>
       <div class="form-row"><span><input data-id="guideline_none" id="guideline_none" name="guideline[]" value="none" type="checkbox"> </span> <label for="guideline_none">None</label></div>
     </div>
     <div class="form-block-mini half">

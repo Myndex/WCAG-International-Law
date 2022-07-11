@@ -17,7 +17,7 @@ policies:
     url:
       ko: http://www.law.go.kr/법령/장애인차별금지및권리구제등에관한법률
     updated: 2008
-    wcagver: Modified<br>WCAG 2.0
+    wcagver: Modified<br>WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2008
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
@@ -36,7 +36,7 @@ policies:
       - title:
           en: "Korean Web Content Accessibility Guidelines 2.1"
           ko: "한국형 웹 콘텐츠 접근성 지침 2.1"
-        desc: "Korean Web Content Accessibility Guidelines 2.1 contains technical specification to make a website so that people with disabilities can use internet appropriately. This standard has been developed considering domestic condition in addition to 12 guidelines and its success criteria level A of WCAG 2.0. "
+        desc: "Korean Web Content Accessibility Guidelines 2.1 contains technical specification to make a website so that people with disabilities can use internet appropriately. This standard has been developed considering domestic condition in addition to 12 guidelines and its success criteria level A of WCAG&nbsp;2.0. "
         url:
           en: "http://www.tta.or.kr/English/new/standardization/eng_ttastddesc.jsp?stdno=TTAK.OT-10.0003/R2"
           ko: "http://www.tta.or.kr/data/ttas_view.jsp?pk_num=TTAK.OT-10.0003%2FR2&rn=1"

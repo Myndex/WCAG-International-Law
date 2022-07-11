@@ -17,7 +17,7 @@ policies:
       en: http://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/Releases/Telecommunications/160420_01.html
       ja: http://www.soumu.go.jp/main_sosiki/joho_tsusin/b_free/guideline.html
     updated: 2016-04-20
-    wcagver: Modified<br>WCAG 2.0
+    wcagver: Modified<br>WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2016-04-20
     type: Voluntary   # Voluntary|Policy|Mandate|Regulation|Law

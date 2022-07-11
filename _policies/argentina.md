@@ -15,7 +15,7 @@ policies:
     url:
       es: http://servicios.infoleg.gob.ar/infolegInternet/anexos/175000-179999/175694/norma.htm
     updated: 2010
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2010
     type: Law  # Voluntary|Policy|Mandate|Regulation|Law
@@ -29,7 +29,7 @@ policies:
     scope:
     standard:
       - title:
-          en: "WCAG 2.0"
+          en: "WCAG&nbsp;2.0"
         desc: "Conformance level A"
         url:
           en: "https://www.w3.org/TR/WCAG20/"

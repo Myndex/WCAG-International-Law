@@ -15,9 +15,9 @@ policies:
       en: Guidelines on Dissemination of Information through Government Websites
     url:
       en: https://www.ogcio.gov.hk/en/community/web_accessibility/doc/disseminationguidelines.pdf
-    desc: Guidelines last updated in 2012, requires WCAG 2.0 Level AA.
+    desc: Guidelines last updated in 2012, requires WCAG&nbsp;2.0 Level AA.
     updated: 2017-05-04
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 1999
     type: Mandate    # Voluntary|Policy|Mandate|Regulation|Law
@@ -31,7 +31,7 @@ policies:
     webonly: no # other values: yes
     standard:
       - title:
-          en: "WCAG 2.0 Level AA"
+          en: "WCAG&nbsp;2.0 Level AA"
         desc: "W3C Web Content Accessibility Guidelines 2.0 Level AA"
         url:
           en: http://www.w3.org/TR/WCAG20/
@@ -40,12 +40,12 @@ policies:
           en: Technical Notes on Website Development and Maintenance
         url:
           en: https://www.ogcio.gov.hk/en/community/web_accessibility/doc/technical_notes.pdf
-        desc: Published July 2012, includes requirements for adding a web accessibility conformance logo to document WCAG 2.0 Level AA conformance.
+        desc: Published July 2012, includes requirements for adding a web accessibility conformance logo to document WCAG&nbsp;2.0 Level AA conformance.
       - title:
           en: Web Accessibility Campaign
         url:
           en: https://www.ogcio.gov.hk/en/community/web_accessibility/campaign/index.htm
-        desc: Initiative to award private sector entities for meeting WCAG 2.0 Level AA with various levels of recognition that depend upon the level of conformance.
+        desc: Initiative to award private sector entities for meeting WCAG&nbsp;2.0 Level AA with various levels of recognition that depend upon the level of conformance.
       - title:
           en: Handbook on Web Accessibility
         url:

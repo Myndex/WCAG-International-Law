@@ -39,7 +39,7 @@ policies:
     url:
       en: http://www.chinesestandard.net/default.aspx?PDF-English-ID=YD/T%201761-2008
     updated: 2017-05-24
-    wcagver: Modified<br>WCAG 2.0
+    wcagver: Modified<br>WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2008
     type: Voluntary   # Voluntary|Policy|Mandate|Regulation|Law
@@ -56,7 +56,7 @@ policies:
     standard:
       - title:
           en: "Technical Requirements for Web Accessibility YD/T 1761-2012"
-        desc: "Web standard based on early (non-Recommendation) version of WCAG 2.0 published in 2008."
+        desc: "Web standard based on early (non-Recommendation) version of WCAG&nbsp;2.0 published in 2008."
         url:
           en: "http://www.chinesestandard.net/default.aspx?PDF-English-ID=YD/T%201761-2012"
 ---

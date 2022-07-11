@@ -15,7 +15,7 @@ policies:
     url:
       ru: http://protect.gost.ru/v.aspx?control=8&id=176157
     updated: 2014
-    wcagver: Modified<br>WCAG 2.0
+    wcagver: Modified<br>WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2014
     type: Voluntary  # Voluntary|Policy|Mandate|Regulation|Law

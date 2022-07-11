@@ -48,7 +48,7 @@ policies:
           fi: JHS 190 Julkisten verkkopalvelujen suunnittelu ja kehittäminen
         url:
           fi: http://docs.jhs-suositukset.fi/jhs-suositukset/JHS190/JHS190.html
-        desc: Guidance on public administration website design. Recommends WCAG 2.0 Level AA.
+        desc: Guidance on public administration website design. Recommends WCAG&nbsp;2.0 Level AA.
 updated: 2020-02-20
 updatemsg:
 # Related page:
@@ -58,7 +58,7 @@ policies:
       en: Laki digitaalisten palvelujen tarjoamisesta (Law on Offering Digital Services)
     url: https://www.finlex.fi/fi/laki/alkup/2019/20190306
     updated: 2019
-    wcagver: WCAG 2.1
+    wcagver: WCAG&nbsp;2.1
     wcaglevel: AA
     enactdate: 2019
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law

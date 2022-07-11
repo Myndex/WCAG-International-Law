@@ -16,7 +16,7 @@ policies:
     url:
       da: http://www.digst.dk/~/media/Files/Arkitektur-og-data/Aabne-standarder-vejledning/Aftale-om-anvendelse-af-abne-standarder-for-software-i-det-offentlige.pdf
     updated: 2017-05-08
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 2007
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
@@ -31,7 +31,7 @@ policies:
     scope: Public sector # keys that allows us to use any combination
     standard:
       - title:
-          en: "WCAG 2.0 Level AA"
+          en: "WCAG&nbsp;2.0 Level AA"
         desc: "W3C Web Content Accessibility Guidelines 2.0 Level AA"
         url:
           en: http://www.w3.org/TR/WCAG20/
@@ -43,7 +43,7 @@ policies:
           da: http://www.digst.dk/Arkitektur-og-data/Standardisering/Aabne-standarder--vejledning/De-syv-saet-af-obligatoriske-aabne-standarder
         desc: These standards are used for purchasing, development and operation of the websites of public authorities.
       - title:
-          en: Official Danish translation of WCAG 2.0
+          en: Official Danish translation of WCAG&nbsp;2.0
           da: Retningslinjer for tilgængeligt webindhold (WCAG) 2.0
         url:
           da: http://www.w3.org/Translations/WCAG20-da/

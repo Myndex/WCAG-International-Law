@@ -14,7 +14,7 @@ policies:
     url:
       en: http://www.legislation.gov.uk/ukpga/2010/15/contents
     updated: 2017-05-04
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2010
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law

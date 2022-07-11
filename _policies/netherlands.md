@@ -17,7 +17,7 @@ policies:
       nl: http://wetten.overheid.nl/BWBR0032203/2016-07-01
     desc: Updated 2012 law for transposition of the 2014/24 / EU Public Procurement Directive into the existing procurement law.
     updated: 2017-05-02
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 2016
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
@@ -32,7 +32,7 @@ policies:
     standard:
       - title:
           en: "EN 301 549"
-        desc: "Includes WCAG 2.0 Level AA verbatim without modifications for Web content, and WCAG 2.0 Level AA as interpreted by WCAG2ICT for non-Web documentation and software."
+        desc: "Includes WCAG&nbsp;2.0 Level AA verbatim without modifications for Web content, and WCAG&nbsp;2.0 Level AA as interpreted by WCAG2ICT for non-Web documentation and software."
         url:
           en: http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.01_60/en_301549v010101p.pdf
     documents:
@@ -48,7 +48,7 @@ policies:
     url:
       nl: https://www.digitoegankelijk.nl/beleid/inhoud/wat-is-verplicht
     updated: 2017-05-02
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 2016
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
@@ -63,7 +63,7 @@ policies:
     standard:
       - title:
           en: "EN 301 549"
-        desc: "Includes WCAG 2.0 Level AA verbatim without modifications for Web content, and WCAG 2.0 Level AA as interpreted by WCAG2ICT for non-Web documentation and software."
+        desc: "Includes WCAG&nbsp;2.0 Level AA verbatim without modifications for Web content, and WCAG&nbsp;2.0 Level AA as interpreted by WCAG2ICT for non-Web documentation and software."
         url:
           en: http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.01_60/en_301549v010101p.pdf
     documents:

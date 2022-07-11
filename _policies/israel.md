@@ -15,7 +15,7 @@ policies:
     url:
       en: http://www.justice.gov.il/En/Units/CommissionEqualRightsPersonsDisabilities/Equal-Rights-For-Persons-With-Disabilities-Law/Pages/Equal-Rights-For-Persons-With-Disabilities-Law.aspx
     updated: 2017-05-04
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 1998
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
@@ -33,7 +33,7 @@ policies:
     scope: Public sector, Private sector # keys that allows us to use any combination
     standard:
       - title:
-          en: "WCAG 2.0"
+          en: "WCAG&nbsp;2.0"
         desc: "W3C Web Content Accessibility Guidelines 2.0"
         url:
           en: http://www.w3.org/TR/WCAG20/
@@ -42,7 +42,7 @@ policies:
           en: Accessibility Legislation
         url:
           en:  http://www.justice.gov.il/En/Units/CommissionEqualRightsPersonsDisabilities/Accessibility/Accessibility_Legislation/Pages/Accessibility-Legislation-Default.aspx
-        desc: Guidance from the Commission on meeting the law. WCAG 2.0 Level AA is required.
+        desc: Guidance from the Commission on meeting the law. WCAG&nbsp;2.0 Level AA is required.
       - title:
           en: Equal Rights for People with Disabilities (Service Accessibility Adjustments) Regulations
         url:

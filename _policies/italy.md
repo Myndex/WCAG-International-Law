@@ -16,7 +16,7 @@ policies:
     url:
       it: http://www.agid.gov.it/legge-9-gennaio-2004-n-4
     updated: 2017-05-30
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: A
     enactdate: 2004
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
@@ -42,7 +42,7 @@ policies:
           it: D.M. 8 luglio 2005 - Allegato A, aggiornato dal DM 20 marzo 2013
         url:
           it: http://www.agid.gov.it/dm-8-luglio-2005-allegato-A
-        desc: The technical requirements for web accessibility copy the WCAG 2.0 Level AA success criteria and conformance criteria. It expands on use of Web standards for technologies compatible with accessibility by referencing ISO/IEC 15545:2000 (HTML), ISO/IEC 16262:2002 (ECMA-script), and additional W3C standards for HTML 4.01, XHTML 1.0, CSS 1.0, XML, SVG, and SMIL.  More current versions of these standards are also allowable.
+        desc: The technical requirements for web accessibility copy the WCAG&nbsp;2.0 Level AA success criteria and conformance criteria. It expands on use of Web standards for technologies compatible with accessibility by referencing ISO/IEC 15545:2000 (HTML), ISO/IEC 16262:2002 (ECMA-script), and additional W3C standards for HTML 4.01, XHTML 1.0, CSS 1.0, XML, SVG, and SMIL.  More current versions of these standards are also allowable.
       - title:
           en: Italian accessibility regulations since 2004
           it: La normativa italiana fin dal 2004

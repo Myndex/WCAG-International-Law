@@ -22,7 +22,7 @@ policies:
       de: https://www.admin.ch/opc/de/classified-compilation/20002658/index.html
       it: https://www.admin.ch/opc/it/classified-compilation/20002658/index.html
     updated: 2016-08-30
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2002
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law

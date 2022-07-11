@@ -32,7 +32,7 @@ policies:
     url:
       en: http://web.guidelines.gov.in
     updated: 2017-03-25
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: A
     enactdate: 2009
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
@@ -46,7 +46,7 @@ policies:
     scope: Government # keys that allows us to use any combination
     standard:
       - title:
-          en: "WCAG 2.0 Level A"
+          en: "WCAG&nbsp;2.0 Level A"
         desc: "W3C Web Content Accessibility Guidelines 2.0 Level A"
         url:
           en: http://www.w3.org/TR/WCAG20/

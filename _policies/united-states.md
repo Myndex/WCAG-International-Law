@@ -12,7 +12,7 @@ policies:
     url:
       en: https://www.section508.gov/section-508-of-the-rehabilitation-act
     updated: 2018-03-20
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 1998
     type: Regulation   # Voluntary|Policy|Mandate|Regulation|Law
@@ -154,7 +154,7 @@ policies:
     url:
       en: http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title14/14cfr382_main_02.tpl
     updated: 2017-02-16
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 2013
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
@@ -168,7 +168,7 @@ policies:
     scope: Private sector # keys that allows us to use any combination
     standard:
       - title:
-          en: "WCAG 2.0 Level AA"
+          en: "WCAG&nbsp;2.0 Level AA"
         desc: "W3C Web Content Accessibility Guidelines 2.0 Level AA"
         url:
           en: http://www.w3.org/TR/WCAG20/
@@ -201,13 +201,13 @@ policies:
     scope: Private sector # keys that allows us to use any combination
     standard:
       - title:
-          en: "WCAG 2.0 Level AA"
+          en: "WCAG&nbsp;2.0 Level AA"
         desc: "W3C Web Content Accessibility Guidelines 2.0 Level AA"
         url:
           en: http://www.w3.org/TR/WCAG20/
       - title:
           en: "Information and Communication Technology (ICT) Standards and Guidelines"
-        desc: "Revised Section 508 standards published in the U.S. Federal Register 21 Jan. 2017. Incorporates WCAG 2.0 Level AA by reference without modifications for Web content as well as WCAG 2.0 Level AA for non-Web documentation and software with the exception of 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification."
+        desc: "Revised Section 508 standards published in the U.S. Federal Register 21 Jan. 2017. Incorporates WCAG&nbsp;2.0 Level AA by reference without modifications for Web content as well as WCAG&nbsp;2.0 Level AA for non-Web documentation and software with the exception of 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification."
         url:
           en: http://www.federalregister.gov/documents/2017/01/18/2017-00395/information-and-communication-technology-ict-standards-and-guidelines
     documents:
@@ -321,7 +321,7 @@ states:
     url:
       en: http://txrules.elaws.us/rule/title1_chapter206_sec.206.50
     updated: 2005
-    wcagver: Modified<br>WCAG 2.0
+    wcagver: Modified<br>WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2005
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
@@ -361,7 +361,7 @@ states:
     url:
       en: https://ocio.wa.gov/policy/accessibility
     updated: 2016
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2016
     type:  Mandate  # Voluntary|Policy|Mandate|Regulation|Law

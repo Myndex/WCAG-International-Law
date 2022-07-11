@@ -17,7 +17,7 @@ policies:
       en: http://www.pisrs.si/Pis.web/pregledPredpisa?sop=2018-01-1351
       sl: http://www.pisrs.si/Pis.web/pregledPredpisa?sop=2018-01-1351
     updated: 2018-05-11
-    wcagver: WCAG 2.1
+    wcagver: WCAG&nbsp;2.1
     wcaglevel: AA
     enactdate: 2018
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
@@ -34,7 +34,7 @@ policies:
     standard:
       - title:
           en: "EN 301 549"
-        desc: "Includes WCAG 2.1 Level AA verbatim without modifications for Web content, and WCAG 2.1 Level AA as interpreted by WCAG2ICT for non-Web documentation and software."
+        desc: "Includes WCAG&nbsp;2.1 Level AA verbatim without modifications for Web content, and WCAG&nbsp;2.1 Level AA as interpreted by WCAG2ICT for non-Web documentation and software."
         url:
           en: http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.01_60/en_301549v010101p.pdf
     documents:

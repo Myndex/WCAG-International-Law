@@ -17,13 +17,13 @@ This page lists governmental policies related to web accessibility, although it 
 {% include excol.html type="middle" %}
 
 ### WCAG Version
-- **WCAG 2.n:** Directly references the Web Content Accessibility Guidelines, which are as indicated, 2.0, 2.1, 2.2, or (future) 3.0.
+- **WCAG&nbsp;2.n:** Directly references the Web Content Accessibility Guidelines, which are as indicated, 2.0, 2.1, 2.2, or (future) 3.0.
 - **Derived 2.n:** Used when a law or policy is largely based on some version of the Web Content Accessibility Guidelines (WCAG), but there may be additional exceptions and/or some requirements were excluded, modified, or additional non-WCAG requirements were added.
 - **Other:** References other standards or own-legislation to satisfy legal or conformance requirements, but may reference WCAG documents as instructive, but not normative.
 - **None:** No specific, actionable standard is put forth as a conformance requirement.
 
 ### Level
-- **A AA AAA** For WCAG 2.x, the minimal allowed level, usually AA.
+- **A AA AAA** For WCAG&nbsp;2.x, the minimal allowed level, usually AA.
 - **Bronze, Silver, Gold** For WCAG 3.x, the minimum allowed level, TBD.
 - **Other** Some other conformance metric is used.
 

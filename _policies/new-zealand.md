@@ -42,7 +42,7 @@ policies:
     url:
       en: https://www.ict.govt.nz/guidance-and-resources/government-online/online-practice-guidelines/
     updated: 2017-05-04
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 2013
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
@@ -57,7 +57,7 @@ policies:
     standard:
       - title:
           en: Web Accessibility Standard 1.0
-        desc: Requires WCAG 2.0 Level AA and all 5 conformance criteria with exceptions documented in the standard.
+        desc: Requires WCAG&nbsp;2.0 Level AA and all 5 conformance criteria with exceptions documented in the standard.
         url:
           en: http://webtoolkit.govt.nz/standards/web-accessibility-standard-1-0/
     documents:

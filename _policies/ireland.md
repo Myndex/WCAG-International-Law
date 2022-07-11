@@ -37,7 +37,7 @@ policies:
     url:
       en: http://www.irishstatutebook.ie/eli/2000/act/8/enacted/en/html
     updated: 2017-04-01
-    wcagver: WCAG 2.0
+    wcagver: WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2004
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law

@@ -36,7 +36,7 @@ policies:
     url:
       de: https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html
     updated: 2017-03-17
-    wcagver: Modified<br>WCAG 2.0
+    wcagver: Modified<br>WCAG&nbsp;2.0
     wcaglevel:
     enactdate: 2011
     type: Policy   # Voluntary|Policy|Mandate|Regulation|Law
