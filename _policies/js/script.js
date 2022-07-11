@@ -242,7 +242,7 @@ $(function(){
       selected = [selected.q];
     }
   }
-  //console.log(selected.q);
+console.log(selected.q);
 
 	var item_template = $('#results-template').text();
 	var a11y_policies = $.getJSON( path + "/policies/js/data.json", function() {
@@ -253,10 +253,10 @@ $(function(){
 			items            : jsn,
 			facets           : {
 				'wcagver' : {'title': 'WCAG<br>Version', 'collapsed': true},
-				'wcaglevel' : {'title': 'Lvl', 'collapsed': true},
+				//'wcaglevel' : {'title': 'Lvl', 'collapsed': true},
         'type'  : {'title': 'Force', 'collapsed': true},
-        'category'  : {'title': 'Category', 'collapsed': true},
-				'scope': {'title': 'Applies to', 'collapsed': true}
+        //'category'  : {'title': 'Category', 'collapsed': true},
+				//'scope': {'title': 'Applies to', 'collapsed': true}
 			},
 			resultSelector   : '#results',
 			facetSelector    : '#facets',
