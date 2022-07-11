@@ -1,13 +1,26 @@
 ---
 title: "Web Accessibility Laws & Policies"
+nav_title: "Countries / Regions"
 permalink: /policies/
 order: 0
-nav_title: "Countries / Regions"
 layout: sidenav
 ---
 
-This page lists governmental policies related to web accessibility, although it is not a comprehensive or definitive listing. The information on this page is _not_ legal advice. If you have questions about the applicability of the policies to specific situations, please consult your legal council for the appropriate jurisdiction.
+{::nomarkdown}
+{% include box.html type="start" title="Dated" icon="warning" %}
+{:/}
 
+Most of this information is from 2018. We are in the process of updating it. We plan to start publishing the updates in June 2022.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+This page lists governmental policies related to web accessibility, although it is not a comprehensive or definitive listing. We welcome additions or corrections to these listings via the [submission form]({{ "/policies/submission/" | relative_url }}).
+
+The information on this page is _not_ legal advice. If you have questions about the applicability of the policies to specific situations, please consult legal authorities for the appropriate jurisdiction.
+
+For guidance on developing an accessibility policy for an organization, see [Developing Organizational Policies on Web Accessibility]({{ "/planning/org-policies/" | relative_url }}).
 
 {% include excol.html type="start" id="xterms" %}
 
@@ -15,41 +28,30 @@ This page lists governmental policies related to web accessibility, although it 
 
 {% include excol.html type="middle" %}
 
-### WCAG Version
-- **WCAG&nbsp;2.n:** Directly references the Web Content Accessibility Guidelines, which are as indicated, 2.0, 2.1, 2.2, or (future) 3.0.
-- **Derived 2.n:** Used when a law or policy is largely based on some version of the Web Content Accessibility Guidelines (WCAG), but there may be additional exceptions and/or some requirements were excluded, modified, or additional non-WCAG requirements were added.
-- **Other:** References other standards or own-legislation to satisfy legal or conformance requirements, but may reference WCAG documents as instructive, but not normative.
-- **None:** No specific, actionable standard is put forth as a conformance requirement.
-
-### Level
-- **A AA AAA** For WCAG&nbsp;2.x, the minimal allowed level, usually AA.
-- **Bronze, Silver, Gold** For WCAG 3.x, the minimum allowed level, TBD.
-- **Other** Some other conformance metric is used.
-
-### Force
-- **Recommend:** A best practices recommendation which is optional and has no force of law.
-- **Policy:** A resolution that defines objectives of an entity, and may include methods and principles to adhere to.
-- **Mandate:** A mandatory policy with required accessibility goals or implementation, but that is not regulated by law.
-- **Regulation:** A regulation is a rule as defined by an agency or ministry, which has been given the legal authority to do so by the legislative body. Regulations usually have the force of law. For example, congress created a law that enables the FAA to regulate air traffic, and the FAA issues specific regulations, and can levy fines if certain regulations are not observed.
-- **Law:** A law refers to a written statute or legal code which can be enforced. A law is usually codified through the legislation process, or in some instances as "case law" meaning court rulings that have the effect of law, and enforced by the governing body.
-
-### Category
-- **Equal Access:** Relating to non-discrimination and accessible accommodation requirements, mandates, or laws.
-- **Accommodation:** Relating to basic accessible accommodation recommendations or policies.
-- **Procurement:** Relating to accessibility requirements (law) or recommendations (policy) when the government purchases goods and services.
-- **Proposed:** A law or policy that has not been enacted, but is under review and consideration.
-
-### Applies to
-- **Public sector:** Includes government as well as government-run or owned entities, and certain entities that receive government funding.
-- **Regulated sector:** Private sector entities that are subject to significant governmental regulation, such as airlines or banking.
-- **Public accommodation:** Private sector entities that provide goods or services directly to the public at large, such as stores, restaurants, theaters.
-- **Private sector:** Businesses or organizations that are not part of the public sector nor public accommodation, including non-profit organizations. May have exclusions based on size.
+-   **Law** – XA law has completed the legislation process, and is put
+    into effect as the law of the land.
+-   **Policy** – Outlines the goals of a government ministry or agency
+    as well as the methods and principles to achieve those goals.
+    Policies are not laws, but can lead to the development of laws.
+-   **Public sector** – Includes government and government-run or owned
+    entities, and entities that receive government funding.
+-   **Private sector** – Businesses and organizations that are not part
+    of the public sector, including non-profit organizations.
+-   **WCAG derivative** - Used when a standard is based on a version of
+    the Web Content Accessibility Guidelines (WCAG), but some
+    requirements were excluded or modified or additional non-WCAG
+    requirements were added.
+-   **Procurement law** - A law that requires government purchase of
+    accessible goods and services.
+-   **Procurement recommendation** - An optional, but encouraged goal to
+    purchase accessible goods and services.
+-   **Mandatory policy** - Required accessibility goals or
+    implementation that is not regulated by law.
 
 {% include excol.html type="end" %}
 
 
 <h2 id="xtable">Law and Policy Overview Table</h2>
-
 <div>
   <details open>
     <summary>
@@ -57,7 +59,6 @@ This page lists governmental policies related to web accessibility, although it 
     </summary>
     <div id="facets"></div>
   </details>
-  
   <table class="sortable dense overviewtable">
     <caption>
       <h3>Overview Table:</h3>
@@ -65,30 +66,27 @@ This page lists governmental policies related to web accessibility, although it 
     </caption>
     <thead>
     <tr>
-      <th>Country or<br>Region</th>
-      <th>WCAG<br>Version</th>
-      <th>Lvl</th>
-      <th>Web<br>Only</th>
-      <th>Force</th>
-      <th>Category</th>
-      <th>Applies To</th>
-      <th>Legislation</th>
-      <th>Date</th>
+      <th>Country / Region</th>
+      <th>Name</th>
+      <th>Date Enacted</th>
+      <th>Type (policy, law, legislation, etc.)</th>
+      <th>Scope</th>
+      <th>Web Only</th>
+      <th>WCAG Version Based On</th>
     </tr>
     </thead>
     <tbody id="results">
       {% for policy in site.policies %}
       {% for p in policy.policies %}
       <tr data-updated="{{policy.updated}}">
-        <td>{% assign curl = policy.country.en | slugify | prepend: '#x' %}</td>
-        <td>{{p.wcagver}}</td>
-        <td>{{p.wcaglevel}}</td>
-        <td>{%if p.webonly == true %}yes{% else %}no{%endif%}</td>
-        <td class="">{{p.type}}</td>
-        <td class="">{{p.category}}</td>
-        <td class="hyphenated">{{p.scope}}</td>
+        <td>{% assign curl = policy.country.en | slugify | prepend: '#x' %}
+          {% include multilang-title.html title=policy.country url=curl %}</td>
         <td><a href="{{ policy.url | prepend: site.baseurl }}#{{ p.title.en | slugify }}">{{p.title.en}}</a></td>
         <td>{{p.enactdate}}</td>
+        <td class="hyphenated">{{p.type}}</td>
+        <td class="hyphenated">{{p.scope}}</td>
+        <td>{%if p.webonly == true %}yes{% else %}no{%endif%}</td>
+        <td>{{p.wcagver}}</td>
       </tr>
       {% endfor %}
       {% endfor %}
@@ -99,21 +97,16 @@ This page lists governmental policies related to web accessibility, although it 
 <script type="text/template" id="results-template">
   <tr>
     <td><a href="<%= obj.countryhref %>"><%= obj.title %></a></td>
-
-    <td><%= obj.wcagver %></td>
-    <td><%= obj.wcaglevel %></td>
-    <td><%= obj.webonly %></td>
-    
-    <td class=""><%= obj.type %></td>
-    <td class=""><%= obj.category %></td>
+    <td><a href="<%= obj.policyhref %>"><%= obj.policyname %></a></td>
+    <td><%= obj.enactdate %></td>
+    <td class="hyphenated"><%= obj.type %></td>
     <td class="hyphenated"><% if (obj.scope instanceof Array && obj.scope.length > 1) { %>
       <%= obj.scope.join(', ') %>
     <% } else { %>
       <%= obj.scope %>
     <% } %></td>
-
-    <td><a href="<%= obj.policyhref %>"><%= obj.policyname %></a></td>
-    <td><%= obj.enactdate %></td>
+    <td><%= obj.webonly %></td>
+    <td><%= obj.wcagver %></td>
   </tr>
 </script>
 
