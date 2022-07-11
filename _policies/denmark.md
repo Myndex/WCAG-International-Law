@@ -17,7 +17,7 @@ policies:
       da: http://www.digst.dk/~/media/Files/Arkitektur-og-data/Aabne-standarder-vejledning/Aftale-om-anvendelse-af-abne-standarder-for-software-i-det-offentlige.pdf
     updated: 2017-05-08
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 2007
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
     category:    # Equal Access|Accommodation|Procurement|Proposed

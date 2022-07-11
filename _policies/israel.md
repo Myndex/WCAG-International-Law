@@ -16,7 +16,7 @@ policies:
       en: http://www.justice.gov.il/En/Units/CommissionEqualRightsPersonsDisabilities/Equal-Rights-For-Persons-With-Disabilities-Law/Pages/Equal-Rights-For-Persons-With-Disabilities-Law.aspx
     updated: 2017-05-04
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 1998
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed

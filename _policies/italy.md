@@ -17,7 +17,7 @@ policies:
       it: http://www.agid.gov.it/legge-9-gennaio-2004-n-4
     updated: 2017-05-30
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: A
     enactdate: 2004
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed

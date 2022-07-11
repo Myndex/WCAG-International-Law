@@ -39,7 +39,7 @@ policies:
       en: http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30683
     updated: 2016-10-01
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 2016
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
     category:   # Equal Access|Accommodation|Procurement|Proposed
@@ -117,6 +117,7 @@ states:
         en: https://www.ontario.ca/laws/statute/05a11
       updated: 2005
       wcagver: WCAG 2.0,
+      wcaglevel: AA
       enactdate: 2005
       type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category:    # Equal Access|Accommodation|Procurement|Proposed

@@ -39,7 +39,7 @@ policies:
     url:
       en: http://www.chinesestandard.net/default.aspx?PDF-English-ID=YD/T%201761-2008
     updated: 2017-05-24
-    wcagver: WCAG 2.0 derivative
+    wcagver: Modified<br>WCAG 2.0
     wcaglevel:
     enactdate: 2008
     type: Voluntary   # Voluntary|Policy|Mandate|Regulation|Law

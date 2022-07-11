@@ -18,7 +18,7 @@ policies:
       sl: http://www.pisrs.si/Pis.web/pregledPredpisa?sop=2018-01-1351
     updated: 2018-05-11
     wcagver: WCAG 2.1
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 2018
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed

@@ -58,8 +58,8 @@ policies:
       en: Laki digitaalisten palvelujen tarjoamisesta (Law on Offering Digital Services)
     url: https://www.finlex.fi/fi/laki/alkup/2019/20190306
     updated: 2019
-    wcagver: WCAG 2.1, 
-    wcaglevel:
+    wcagver: WCAG 2.1
+    wcaglevel: AA
     enactdate: 2019
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category:    # Equal Access|Accommodation|Procurement|Proposed

@@ -17,7 +17,7 @@ policies:
     url:
       ko: http://www.law.go.kr/법령/장애인차별금지및권리구제등에관한법률
     updated: 2008
-    wcagver: WCAG 2.0 derivative
+    wcagver: Modified<br>WCAG 2.0
     wcaglevel:
     enactdate: 2008
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law

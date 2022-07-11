@@ -18,7 +18,7 @@ policies:
     desc: Guidelines last updated in 2012, requires WCAG 2.0 Level AA.
     updated: 2017-05-04
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 1999
     type: Mandate    # Voluntary|Policy|Mandate|Regulation|Law
     category:   # Equal Access|Accommodation|Procurement|Proposed

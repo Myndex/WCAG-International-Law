@@ -15,7 +15,7 @@ policies:
     url:
       zh: "https://www.handicap-free.nat.gov.tw/Download/Detail/1418?Category=28"
     updated: 2017
-    wcagver: WCAG 2.0 derivative
+    wcagver: Modified<br>WCAG 2.0
     wcaglevel:
     enactdate: 2017
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law

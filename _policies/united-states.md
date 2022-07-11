@@ -13,9 +13,9 @@ policies:
       en: https://www.section508.gov/section-508-of-the-rehabilitation-act
     updated: 2018-03-20
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 1998
-    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    type: Regulation   # Voluntary|Policy|Mandate|Regulation|Law
     category: Procurement,<br>Accommodation  # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
@@ -155,7 +155,7 @@ policies:
       en: http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title14/14cfr382_main_02.tpl
     updated: 2017-02-16
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 2013
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
@@ -321,7 +321,7 @@ states:
     url:
       en: http://txrules.elaws.us/rule/title1_chapter206_sec.206.50
     updated: 2005
-    wcagver: WCAG 2.0 derivate
+    wcagver: Modified<br>WCAG 2.0
     wcaglevel:
     enactdate: 2005
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law

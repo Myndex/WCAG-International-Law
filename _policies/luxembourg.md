@@ -16,7 +16,7 @@ policies:
     url:
       fr: http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo
     updated: 2019-05-28
-    wcagver: 
+    wcagver: None
     wcaglevel:
     enactdate: 2019
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law

@@ -18,7 +18,7 @@ policies:
     desc: Updated 2012 law for transposition of the 2014/24 / EU Public Procurement Directive into the existing procurement law.
     updated: 2017-05-02
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 2016
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category: Procurement   # Equal Access|Accommodation|Procurement|Proposed
@@ -49,7 +49,7 @@ policies:
       nl: https://www.digitoegankelijk.nl/beleid/inhoud/wat-is-verplicht
     updated: 2017-05-02
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 2016
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
     category:  # Equal Access|Accommodation|Procurement|Proposed

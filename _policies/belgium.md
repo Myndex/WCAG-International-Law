@@ -22,7 +22,7 @@ policies:
     desc: 
     updated: 2021-05-11
     wcagver: WCAG 2.1
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 2018
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed

@@ -43,7 +43,7 @@ policies:
       en: https://www.ict.govt.nz/guidance-and-resources/government-online/online-practice-guidelines/
     updated: 2017-05-04
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 2013
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
     category:  # Equal Access|Accommodation|Procurement|Proposed

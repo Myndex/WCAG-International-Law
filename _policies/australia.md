@@ -16,7 +16,7 @@ policies:
       en: http://www.legislation.gov.au/Details/C2016C00763
     updated: 2016-08-30
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: A
     enactdate: 1992
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
@@ -54,7 +54,7 @@ policies:
       en: http://www.legislation.gov.au/Details/C2016C00763
     updated: 2016-10-01
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: AA
     enactdate: 2016
     type: Voluntary   # Voluntary|Policy|Mandate|Regulation|Law
     category: Procurement   # Equal Access|Accommodation|Procurement|Proposed

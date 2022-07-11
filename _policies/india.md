@@ -33,7 +33,7 @@ policies:
       en: http://web.guidelines.gov.in
     updated: 2017-03-25
     wcagver: WCAG 2.0
-    wcaglevel:
+    wcaglevel: A
     enactdate: 2009
     type: Mandate   # Voluntary|Policy|Mandate|Regulation|Law
     category:    # Equal Access|Accommodation|Procurement|Proposed

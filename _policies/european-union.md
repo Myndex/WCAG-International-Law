@@ -41,7 +41,7 @@ policies:
     url:
       en: http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2015:0615:FIN
     updated: 2015-12-02
-    wcagver: WCAG 2.0 derivative
+    wcagver: Modified<br>WCAG 2.0
     wcaglevel:
     enactdate: draft
     type: Law   # Voluntary|Policy|Mandate|Regulation|Law
