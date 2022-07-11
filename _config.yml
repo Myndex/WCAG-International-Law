@@ -23,7 +23,7 @@ exclude:
 # Build settings
 markdown: kramdown
 kramwdown:
-  toc_levels: 2..3
+#  toc_levels: 2..3
   input: GFM
   syntax_highlighter: rouge
 highlighter: rouge
@@ -35,7 +35,7 @@ remote_theme: w3c/wai-website-theme
 
 collections:
   policies:
-    area: "Plan & Manage"
+#    area: "Plan & Manage"
     name: "Web Accessibility Laws & Policies"
     shortname: "International<br>Laws & Policies"
     icon: "book" # TODO
@@ -59,4 +59,4 @@ plugins:
   - jekyll-redirect-from
   - jekyll-include-cache
   - jekyll-remote-theme
-  - wai-website-plugin
+#  - wai-website-plugin
