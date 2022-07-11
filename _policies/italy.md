@@ -19,8 +19,8 @@ policies:
     wcagver: WCAG 2.0
     wcaglevel:
     enactdate: 2004
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Digital Agency Italy (AGID)

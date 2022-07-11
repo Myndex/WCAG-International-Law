@@ -19,8 +19,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 2008
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries: false
     webonly: false
     scope: Public sector, Private sector

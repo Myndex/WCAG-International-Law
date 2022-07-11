@@ -20,8 +20,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 2003
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of the Interior
@@ -61,7 +61,7 @@ policies:
     wcagver: WCAG 2.1, 
     wcaglevel:
     enactdate: 2019
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category:    # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:

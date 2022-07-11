@@ -19,8 +19,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 2002
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Justice and Consumer Protection
@@ -39,8 +39,8 @@ policies:
     wcagver: WCAG 2.0 derivative
     wcaglevel:
     enactdate: 2011
-    type: policy   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
+    type: Policy   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Federal Ministry of the Interior

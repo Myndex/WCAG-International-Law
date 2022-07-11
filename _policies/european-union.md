@@ -16,8 +16,8 @@ policies:
     wcagver: WCAG 2.0
     wcaglevel:
     enactdate: 2016
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: European Commission
@@ -44,7 +44,7 @@ policies:
     wcagver: WCAG 2.0 derivative
     wcaglevel:
     enactdate: draft
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category: Proposed   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:

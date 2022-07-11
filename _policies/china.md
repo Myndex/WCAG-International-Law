@@ -18,8 +18,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 2008
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: State Council of the People's Republic of China

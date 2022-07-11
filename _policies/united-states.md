@@ -15,8 +15,8 @@ policies:
     wcagver: WCAG 2.0
     wcaglevel:
     enactdate: 1998
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Procurement, Accessibility  # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Procurement,<br>Accommodation  # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: General Services Administration (GSA)
@@ -72,8 +72,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 2009
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Department of Labor (DOL)
@@ -116,8 +116,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 1996
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Federal Communications Commission (FCC)
@@ -157,8 +157,8 @@ policies:
     wcagver: WCAG 2.0
     wcaglevel:
     enactdate: 2013
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Department of Transportation (DoT)
@@ -190,8 +190,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 2010
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Federal Communications Commission (FCC)
@@ -324,7 +324,7 @@ states:
     wcagver: WCAG 2.0 derivate
     wcaglevel:
     enactdate: 2005
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category:    # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:

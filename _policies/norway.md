@@ -21,8 +21,8 @@ policies:
     wcagver_comment: "WCAG 2.0, WCAG 2.0 levels A and AA, with the exception of success criteria 1.2.3, 1.2.4 and 1.2.5."
     wcaglevel:
     enactdate: 2013
-    type: law  # Voluntary|Policy|Mandate|Regulation|Law
-    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law  # Voluntary|Policy|Mandate|Regulation|Law
+    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: "Norwegian Authority for Universal Design of ICT, a part of the Agency for Public Management and eGovermnent (Difi)"

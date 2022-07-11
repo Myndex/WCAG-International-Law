@@ -17,8 +17,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 2005
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Department of the Taioseach and Government Information Services
@@ -40,8 +40,8 @@ policies:
     wcagver: WCAG 2.0
     wcaglevel:
     enactdate: 2004
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Irish Human Rights and Equality Commission
@@ -64,8 +64,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 2004
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Irish Human Rights and Equality Commission

@@ -92,7 +92,6 @@ This page lists governmental policies related to web accessibility, although it 
         <td class="hyphenated">{{p.category}}</td>
         <td class="hyphenated">{{p.scope}}</td>
 
-
         <td><a href="{{ policy.url | prepend: site.baseurl }}#{{ p.title.en | slugify }}">{{p.title.en}}</a></td>
         <td>{{p.enactdate}}</td>
       </tr>
@@ -110,6 +109,7 @@ This page lists governmental policies related to web accessibility, although it 
     <td><%= obj.wcagver %></td>
     <td><%= obj.wcaglevel %></td>
     <td><%= obj.webonly %></td>
+    
     <td class="hyphenated"><%= obj.type %></td>
     <td class="hyphenated"><%= obj.category %></td>
     <td class="hyphenated"><% if (obj.scope instanceof Array && obj.scope.length > 1) { %>

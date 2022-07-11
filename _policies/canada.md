@@ -18,8 +18,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 1985
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of the Attorney General
@@ -74,7 +74,7 @@ states:
       updated: 2018
       wcagver: none
       enactdate: 2017
-      type: law   # Voluntary|Policy|Mandate|Regulation|Law
+      type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category:    # Equal Access|Accommodation|Procurement|Proposed
       ministries:
         - title:
@@ -100,7 +100,7 @@ states:
       updated: 2014
       wcagver: none
       enactdate: 2003
-      type: law   # Voluntary|Policy|Mandate|Regulation|Law
+      type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category:    # Equal Access|Accommodation|Procurement|Proposed
       ministries:
         - title:
@@ -118,7 +118,7 @@ states:
       updated: 2005
       wcagver: WCAG 2.0,
       enactdate: 2005
-      type: law   # Voluntary|Policy|Mandate|Regulation|Law
+      type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category:    # Equal Access|Accommodation|Procurement|Proposed
       ministries:
         - title:

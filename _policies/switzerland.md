@@ -25,8 +25,8 @@ policies:
     wcagver: WCAG 2.0
     wcaglevel:
     enactdate: 2002
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Non-discrimination   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Equal Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Federal Office of Justice (FOJ)

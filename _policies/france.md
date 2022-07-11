@@ -18,8 +18,8 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 2005
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Social Affairs
@@ -39,8 +39,8 @@ policies:
     wcagver: WCAG 2.0 derivative
     wcaglevel:
     enactdate: 2015
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
-    category: Accessibility   # Equal Access|Accommodation|Procurement|Proposed
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
+    category: Accommodation   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
           en: Ministry of Social Affairs
@@ -65,7 +65,7 @@ policies:
     wcagver: None
     wcaglevel:
     enactdate: 2016
-    type: law   # Voluntary|Policy|Mandate|Regulation|Law
+    type: Law   # Voluntary|Policy|Mandate|Regulation|Law
     category: Digital Governance   # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
