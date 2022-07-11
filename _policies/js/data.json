@@ -21,7 +21,7 @@ excerpt: none
         {% assign scopes = p.scope | split: ", " %}
         {% for scope in scopes %}
         "{{scope | escape_once}}"
-        {% unless forloop.last %}
+        {% unless forloop.last %},
         {% endunless %}
       {% endfor %}
       ],
