@@ -15,7 +15,7 @@ policies:
     url:
       es: http://servicios.infoleg.gob.ar/infolegInternet/anexos/175000-179999/175694/norma.htm
     updated: 2010
-    wcagver: WCAG 2.0,
+    wcagver: WCAG 2.0
     enactdate: 2010
     type: law, Procurement law,
     ministries:

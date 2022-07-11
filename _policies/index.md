@@ -2,15 +2,13 @@
 title: "Web Accessibility Laws & Policies"
 permalink: /policies/
 order: 0
+nav_title: "Countries / Regions"
+layout: sidenav
 ---
 
 
 This page lists governmental policies related to web accessibility, although it is not a comprehensive or definitive listing. The information on this page is _not_ legal advice. If you have questions about the applicability of the policies to specific situations, please consult your legal council for the appropriate jurisdiction.
 
-<!-- 
-nav_title: "Countries / Regions"
-layout: sidenav
--->
 
 {% include excol.html type="start" id="xterms" %}
 
@@ -47,7 +45,6 @@ layout: sidenav
 - **Regulated sector:** Private sector entities that are subject to significant governmental regulation, such as airlines or banking.
 - **Public accommodation:** Private sector entities that provide goods or services directly to the public at large, such as stores, restaurants, theaters.
 - **Private sector:** Businesses or organizations that are not part of the public sector nor public accommodation, including non-profit organizations. May have exclusions based on size.
-
 
 {% include excol.html type="end" %}
 
