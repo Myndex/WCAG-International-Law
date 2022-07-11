@@ -30,7 +30,7 @@ policies:
         url:
           en: http://www.chrc-ccdp.ca/
     webonly: no # other values: yes
-    scope: Public sector, Private sector # keys that allows us to use any combination
+    scope: Public sector,<br>Private sector # keys that allows us to use any combination
     standard: false
     documents:
   - title:

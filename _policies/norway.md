@@ -31,7 +31,7 @@ policies:
           en: "https://uu.difi.no/om-oss/english"
           "no": "https://uu.difi.no"
     webonly: false
-    scope: Public sector, Private sector
+    scope: Public sector,<br>Private sector
     standard: none
     documents: false
 ---

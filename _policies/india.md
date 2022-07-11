@@ -24,7 +24,7 @@ policies:
         url:
           en: http://www.disabilityaffairs.gov.in/content/
     webonly: no # other values: yes
-    scope: Public sector, Private sector # keys that allows us to use any combination
+    scope: Public sector,<br>Private sector # keys that allows us to use any combination
     standard: False
     documents:
   - title:

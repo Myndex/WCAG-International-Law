@@ -47,7 +47,7 @@ policies:
           en: Irish Human Rights and Equality Commission
         url:
           en: http://www.ihrec.ie
-    scope: Public sector, Private sector
+    scope: Public sector,<br>Private sector
     webonly: no # other values: yes
     standard: None
     documents:
@@ -71,7 +71,7 @@ policies:
           en: Irish Human Rights and Equality Commission
         url:
           en: www.ihrec.ie
-    scope: Public sector, Private sector
+    scope: Public sector,<br>Private sector
     webonly: no # other values: yes
     standard: None
     documents:

@@ -51,7 +51,7 @@ policies:
           en: European Commission
         url:
           en: http://ec.europa.eu/index_en.htm
-    scope: Public sector, Private sector
+    scope: Public sector,<br>Private sector
     webonly: no # other values: yes
     standard: None
     documents:

@@ -25,7 +25,7 @@ policies:
         url:
           en: https://www.equalityhumanrights.com/en
     webonly: no # other values: yes
-    scope: Public sector, Private sector # keys that allows us to use any combination
+    scope: Public sector,<br>Private sector # keys that allows us to use any combination
     standard: None
     documents:
       - title:

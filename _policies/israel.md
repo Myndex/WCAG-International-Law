@@ -30,7 +30,7 @@ policies:
         url:
           en: http://www.justice.gov.il/En/UNITS/COMMISSIONEQUALRIGHTSPERSONSDISABILITIES/Pages/About-the-Commission-for-Equal-Rights-of-Persons-With-Disablities.aspx
     webonly: no # other values: yes
-    scope: Public sector, Private sector # keys that allows us to use any combination
+    scope: Public sector,<br>Private sector # keys that allows us to use any combination
     standard:
       - title:
           en: "WCAG&nbsp;2.0"

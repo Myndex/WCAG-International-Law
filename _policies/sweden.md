@@ -23,7 +23,7 @@ policies:
     category: Equal-Access   # Equal Access|Accommodation|Procurement|Proposed
     ministries: false
     webonly: false
-    scope: Public sector, Private sector
+    scope: Public sector,<br>Private sector
     standard: false
     documents: false
 ---

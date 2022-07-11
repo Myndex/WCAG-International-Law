@@ -254,9 +254,9 @@ $(function(){
 			facets           : {
 				'wcagver' : {'title': 'WCAG<br>Version', 'collapsed': true},
 				'wcaglevel' : {'title': 'Lvl', 'collapsed': true},
-        'type'  : {'title': 'Force', 'collapsed': true}
-        'category'  : {'title': 'Category', 'collapsed': true}
-				'scope': {'title': 'Applies to', 'collapsed': true},
+        'type'  : {'title': 'Force', 'collapsed': true},
+        'category'  : {'title': 'Category', 'collapsed': true},
+				'scope': {'title': 'Applies to', 'collapsed': true}
 			},
 			resultSelector   : '#results',
 			facetSelector    : '#facets',

@@ -30,7 +30,7 @@ policies:
           en: "http://www.mohw.go.kr/eng/index.jsp"
           ko: "http://www.mohw.go.kr/"
     webonly: false
-    scope: Public sector, Private sector
+    scope: Public sector,<br>Private sector
     standard: false
     documents:
       - title:

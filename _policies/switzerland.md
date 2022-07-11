@@ -47,7 +47,7 @@ policies:
           fr: http://www.humanrights.ch/fr/droits-humains-suisse/acteurs/services-fed/-personnes-handicapees/
           de: http://www.humanrights.ch/de/menschenrechte-schweiz/akteure/portraits-bundesstellen/-ebg-behinderungen/
     webonly: no # other values: yes
-    scope: Public sector, Private sector # keys that allows us to use any combination
+    scope: Public sector,<br>Private sector # keys that allows us to use any combination
     standard: false
     documents:
 ---

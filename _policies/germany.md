@@ -29,7 +29,7 @@ policies:
           en: http://www.bmjv.de/EN/Home/home_node.html
           de: http://www.bmjv.de/DE/Startseite/Startseite_node.html
     webonly: no # other values: yes
-    scope: Public sector, Private sector # keys that allows us to use any combination
+    scope: Public sector,<br>Private sector # keys that allows us to use any combination
   - title:
       en: Federal Ordinance on Barrier-Free Information Technology
       de: Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz (Barrierefreie-Informationstechnik-Verordnung - BITV 2.0)

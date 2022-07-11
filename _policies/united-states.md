@@ -15,7 +15,7 @@ policies:
     wcagver: WCAG&nbsp;2.0
     wcaglevel: AA
     enactdate: 1998
-    type: Regulation   # Voluntary|Policy|Mandate|Regulation|Law
+    type: Regulation  # Voluntary|Policy|Mandate|Regulation|Law
     category: Procurement,<br>Accommodation  # Equal Access|Accommodation|Procurement|Proposed
     ministries:
       - title:
@@ -100,7 +100,7 @@ policies:
         url:
           en: http://www.access-board.gov/
     webonly: no # other values: yes
-    scope: Public sector, Private sector # keys that allows us to use any combination
+    scope: Public sector,<br>Private sector # keys that allows us to use any combination
     standard: None
     documents:
       - title:
@@ -128,7 +128,7 @@ policies:
         url:
           en: https://www.access-board.gov/
     webonly: no # other values: yes
-    scope: Public sector, Private sector # keys that allows us to use any combination
+    scope: Public sector,<br>Private sector # keys that allows us to use any combination
     standard:
       - title:
           en: "Telecommunications Act Section 255 Guidelines"

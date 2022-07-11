@@ -69,7 +69,7 @@ policies:
         url:
           en: "https://www.eduskunta.fi/EN/Pages/default.aspx"
     webonly: false
-    scope: 
+    scope:
     standard:
       - title:
           en: ""
