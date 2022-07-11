@@ -3,7 +3,7 @@ lang: en
 order: 7
 title: European Union
 country:
-  en: European Union
+  en: EU
 updated: 2017-02-09
 updatemsg: Added the latest European Union information.
 relatedpages:

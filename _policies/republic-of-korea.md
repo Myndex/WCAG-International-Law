@@ -3,7 +3,7 @@ lang: en
 order: 21
 title: Republic of Korea
 country:
-  en: Republic of Korea
+  en: Korea
   ko: 대한민국
   # Manual enter other country names:
 updated: 2017-06-30

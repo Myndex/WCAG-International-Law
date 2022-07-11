@@ -3,7 +3,7 @@ lang: en
 order: 27
 title: United Kingdom
 country:
-  en: United Kingdom
+  en: UK
 # title_native: # Country name in the country’s language(s), comma separated. For United Kingdom: Schweiz, Suisse, Svizzera, Svizra
 updated: 2017-05-04
 updatemsg: Update United Kingdom accessibility laws and policies.

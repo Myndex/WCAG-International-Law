@@ -3,7 +3,7 @@ lang: en
 order: 28
 title: United States
 country:
-  en: United States
+  en: USA
 updated: 2017-02-16
 updatemsg: Updated U.S. laws and policies. Added reference to the Revised 508 Standards.
 policies:
