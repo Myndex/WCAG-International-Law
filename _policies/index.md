@@ -1,14 +1,16 @@
 ---
 title: "Web Accessibility Laws & Policies"
-nav_title: "Countries / Regions"
 permalink: /policies/
 order: 0
-layout: sidenav
 ---
 
 
 This page lists governmental policies related to web accessibility, although it is not a comprehensive or definitive listing. The information on this page is _not_ legal advice. If you have questions about the applicability of the policies to specific situations, please consult your legal council for the appropriate jurisdiction.
 
+<!-- 
+nav_title: "Countries / Regions"
+layout: sidenav
+-->
 
 {% include excol.html type="start" id="xterms" %}
 
