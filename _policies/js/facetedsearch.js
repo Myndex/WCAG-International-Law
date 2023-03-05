@@ -10,7 +10,7 @@ jQuery.fn.highlight = function() {
                 "background-color": "#ffff99",
                 "opacity": ".8"
             })
-            .fadeOut(750);
+        .fadeOut(750);
     });
 }
 
@@ -56,7 +56,7 @@ var defaults = {
  * jQuery namespace. Pass in your own settings (see above) to initialize
  * the faceted search
  */
- 
+
 var settings = {};
 jQuery.facetelize = function(usersettings) {
   $.extend(settings, defaults, usersettings);
@@ -219,6 +219,7 @@ function order() {
  * depending on what they were beforehand. This causes the items to
  * be filtered again and the UI is updated accordingly.
  */
+
 function toggleFilter(key, value) {
   settings.state.filters[key] = settings.state.filters[key] || [] ;
   if (_.indexOf(settings.state.filters[key], value) == -1) {
@@ -239,6 +240,7 @@ function toggleFilter(key, value) {
 /**
  * This function is only called once, it creates the facets ui.
  */
+
 function createFacetUI() {
   var itemtemplate  = _.template(settings.listItemTemplate);
   var titletemplate = _.template(settings.facetTitleTemplate);
