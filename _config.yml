@@ -10,7 +10,7 @@ title: "WCAG As Used In International Law"
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   WCAG International Law.
-baseurl: "/WCAG-International-Law" # the subpath of your site, e.g. /blog
+baseurl: "/wcaginlaw" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter:
   username: Myndex
@@ -27,7 +27,7 @@ kramwdown:
   input: GFM
   syntax_highlighter: rouge
 highlighter: rouge
-repository: Myndex/WCAG-International-Law
+repository: Myndex/wcaginlaw
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
@@ -39,7 +39,7 @@ collections:
     name: "Web Accessibility Laws & Policies"
     shortname: "International<br>Laws & Policies"
     icon: "book" # TODO
-    repostitory: Myndex/WCAG-International-Law
+    repostitory: Myndex/wcaginlaw
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
